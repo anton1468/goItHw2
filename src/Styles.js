@@ -23,5 +23,7 @@ export const AddButton = styled.button`
 `
 export const PersonPhone = styled.li`
   font-size: 15px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  row-gap: 20px;
 `
