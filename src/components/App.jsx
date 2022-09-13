@@ -1,5 +1,4 @@
 import Statistic from "./Statistic/Statistic";
-import Contacts from "./Contacts/Contacts";
 
 export const App = () => {
   return (
@@ -15,7 +14,6 @@ export const App = () => {
     >
       <div style={{margin: '0 auto', width: "70%"}}>
       <Statistic/>
-      <Contacts/>
       </div>
     </div>
   );
